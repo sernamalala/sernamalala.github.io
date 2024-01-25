@@ -16,7 +16,6 @@ body{
 }
 
 .navbar{
-    height: 20vh;
     background: rgb(232,213,221);
 background: radial-gradient(circle, rgba(232,213,221,1) 0%, rgba(233,195,148,1) 100%);
     position: fixed;
@@ -31,18 +30,18 @@ background: radial-gradient(circle, rgba(232,213,221,1) 0%, rgba(233,195,148,1) 
     align-items:center;
 }
 
-.navbar-list li{
-
-    list-style: none;
+.logo{
+    max-width: 100px;
 }
-.navbar-list li a{
-
-    color: black;
-    text-decoration: none;
-    position: relative;
-    top: 50px;
+.fa-linkedin{
+    color: #0e76a8;
 }
-
+.fa-twitter{
+    color: #1DA1F2;;
+}
+.fa-github{
+    color: #333;
+}
 .serna-heading{
         
         font-family: 'Caveat', cursive;
@@ -50,30 +49,43 @@ background: radial-gradient(circle, rgba(232,213,221,1) 0%, rgba(233,195,148,1) 
         margin-top: 200px;
         text-align: center;
 }
-
-.profile-picture img{
-    height: 300px;
-    margin-top: 50px;
-    margin-left: 70px;
-    border: 5px solid #142d4c;
-    border-radius: 70%;
+.img{
+    width: 300px;
 }
+.me{
+    font-size: 1.6em;
+    
+}
+.me li{
+    list-style: none;
+    text-align: center;
+    
+}
+div h2{
+    text-align: center;
+}
+.img-project{
+    max-width: 100%;
+    height: 300px;
+    
+    
+}
+.grow img{
+    transition: 1s ease;
+    }
+    
+    .grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
 .main{
     display: flex;
     justify-content: center;
 
 }
 
-.about-me{
-margin-left: 70px;
-margin-top: 100px;
-list-style:square;
-font-size: 2rem;
-}
-.projects div a img{
-
-width: 250px;
-}
 h2{
     margin-top: 70px;
     text-align: center;
@@ -108,35 +120,4 @@ h2{
 
 .fa-whatsapp{
     margin-right: 10px;
-}
-.info{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0; 
-
-}
-.box-1 img, .box-2 img, .box-3 img{
-    
-    height: 200px;
-    margin: 30px;
-    border-radius: 30px;
-
-}
-
-.box-1 img:hover, .box-2 img:hover, .box-3 img:hover{
-    cursor: pointer;
-    height: 230px;
-    width: auto;
-
-}
-.box-1 span, .box-2 span, .box-3 span{
-
-    display: block;
-    font-size: 1.5rem;
-    color: black;
-    margin-bottom: 30px;
-    text-align: center;
-
 }
